@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 10px;
+}
+
+.game-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;              
+  width:10rem;     
+  height:10rem;      
+  margin: 0 auto;   
+}
+
+.square{
+  cursor: pointer;
+}
+
+#reset{
+  width:10rem;
+  padding: 10px;     
+  cursor: pointer;
+}
+
